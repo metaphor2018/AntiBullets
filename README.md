@@ -1,10 +1,10 @@
-# ANTI-BULLET
+# ANTI-BULLETS
 
 8ビット風レトログラフィックとピコピコBGMで楽しむ、極限の弾幕避けシューティングアクションゲーム！
 
 ## 概要
 
-**ANTI-BULLET** は、Vanilla JavaScriptとCanvas 2D APIで実装されたシューティングゲームです。プレイヤーは自機を操作して、画面上から降ってくる敵の弾幕を避け、生き残った時間に応じてスコアを獲得します。
+**ANTI-BULLETS** は、Vanilla JavaScriptとCanvas 2D APIで実装されたシューティングゲームです。プレイヤーは自機を操作して、画面上から降ってくる敵の弾幕を避け、生き残った時間に応じてスコアを獲得します。
 
 ## 特徴
 
@@ -47,8 +47,8 @@
 ## インストール
 
 ```bash
-git clone https://github.com/yukinori-kitano/AntiShooting.git
-cd AntiShooting
+git clone https://github.com/metaphor2018/AntiBullets.git
+cd AntiBullets
 ```
 
 ## 実行方法
@@ -76,7 +76,7 @@ http://localhost:8000
 ## ファイル構成
 
 ```
-AntiShooting/
+AntiBullets/
 ├── index.html          # HTMLマークアップ
 ├── game.js             # ゲームロジック（敵、プレイヤー、衝突判定）
 ├── audio.js            # Web Audio API実装（BGM、効果音、シンセ）
