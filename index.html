@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANTI-BULLET | 8-Bit Retro Evader</title>
+  <meta name="description" content="8ビット風レトログラフィックとピコピコBGMで楽しむ、極限の弾幕避けシューティングアクションゲーム！">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- レトロゲーム筐体風のスクリーンコンテナ -->
+  <div class="screen-container crt-flicker-effect">
+    <!-- CRTモニター風オーバーレイ（スキャンライン＆ビネット） -->
+    <div class="crt-overlay"></div>
+
+    <!-- ゲーム描画用 Canvas -->
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- 音量調整・ミュートボタン -->
+    <div class="sound-panel">
+      <button id="muteBtn" class="sound-btn">SOUND: ON</button>
+    </div>
+  </div>
+
+  <!-- ゲームモジュールスクリプトの読み込み -->
+  <script type="module" src="game.js"></script>
+</body>
+</html>
