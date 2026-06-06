@@ -79,8 +79,9 @@ http://localhost:8000
 AntiShooting/
 ├── index.html          # HTMLマークアップ
 ├── game.js             # ゲームロジック（敵、プレイヤー、衝突判定）
-├── audio.js            # Web Audio API実装（BGM、効果音）
+├── audio.js            # Web Audio API実装（BGM、効果音、シンセ）
 ├── style.css           # CRTエフェクト、UIスタイル
+├── .gitignore          # Git無視ファイル設定
 └── README.md           # このファイル
 ```
 
